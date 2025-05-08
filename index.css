@@ -70,7 +70,10 @@ h1 {
   body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    
+    color: white;
     min-height: 100vh;
+    background-color: #939898;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,11 +182,21 @@ h1 {
   div {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Adds depth to the container */
   }
+  
+  
   div {
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px); /* Adds a blurred background effect */
+    background: rgba(56, 55, 55, 0.15); /* lighter for more contrast */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px); /* for Safari support */
     padding: 40px;
-    border-radius: 15px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(20, 20, 20, 0.3); /* adds depth */
+    border: 5px solid rgba(255, 255, 255, 0.2); /* frosted border */
+    color: white; /* ensures text stands out */
   }
+  
+  
+  
+  
   
   
