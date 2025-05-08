@@ -51,7 +51,7 @@ h1 {
 
   
   div{
-    border: solid 1px white ;
+    border: solid 5px white ;
     height: 800px;
      width: 650px;
       display: grid; 
@@ -132,13 +132,22 @@ h1 {
   }
 
 
-  @media (max-width: 768px) {
+ /* @media (max-width: 768px) {
     .container {
       width: 90%;
       padding: 40px 20px;
+*/
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+    
+      .btn {
+        width: 200px;
+        padding: 14px;
+      }
     }
-  }
-  
+    
   h1 {
     font-size: 2.5rem;
   }
@@ -159,3 +168,22 @@ h1 {
     text-align: center;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
+  h1 {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);  /* Adds depth to the title */
+  }
+  
+  .btn {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Adds depth to buttons */
+  }
+  
+  div {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Adds depth to the container */
+  }
+  div {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px); /* Adds a blurred background effect */
+    padding: 40px;
+    border-radius: 15px;
+  }
+  
+  
