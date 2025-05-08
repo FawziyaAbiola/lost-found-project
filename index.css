@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(12, 12, 44);
+    background-position: center;
+    background-attachment: fixed;margin: 0;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+    
+    height: 100vh;
+    text-align: center;
+    border-radius: 150px;
+    border: #333;
+  }
+  h1 {
+    color: #333;
+  }
+  .btn {
+    display: block;
+    margin: 20px auto;
+    padding:15px 30px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 250px;
+    text-decoration: none;
+    font-weight: bold; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  div{
+    border: solid 2px white ;
+    height: 1000px;
+     width:800px;
+      display: grid; 
+    justify-content:center centre;  
+    align-items: center;
+     border-radius: 100px;
+      text-align: center;
+  }
+  h1{
+    color: rgb(250, 248, 248);
+     -webkit-text-stroke:1px rgb(20, 20, 20);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 100px;
+  }
