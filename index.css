@@ -103,6 +103,8 @@ h1 {
 }
 
 
+
+
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
@@ -125,9 +127,11 @@ h1 {
 }
 
 div {
+ div {
   border: 5px solid rgba(255, 255, 255, 0.2);
-  height: 1200px;
-  width: 650px;
+  width: 100%;
+  max-width: 650px;
+  min-height: 100vh;
   display: grid;
   justify-content: center;
   align-items: center;
