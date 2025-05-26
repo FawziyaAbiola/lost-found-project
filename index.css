@@ -95,6 +95,13 @@ h1 {
 .btn:nth-of-type(4) {
   background: linear-gradient(45deg, #00c6ff, #0072ff);
 }
+.btn:nth-of-type(5) {
+  background: linear-gradient(45deg, #16e1a4, #1db378);
+}
+.btn:nth-of-type(6) {
+  background: linear-gradient(45deg, #ff9966, #ff5e62);
+}
+
 
 .btn:hover {
   transform: translateY(-3px);
